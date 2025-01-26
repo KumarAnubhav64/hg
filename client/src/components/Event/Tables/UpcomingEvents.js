@@ -67,6 +67,11 @@ function UpcomingEvents(props) {
                                 return(<tr key={id} ></tr>);
                             }
                     })}
+                    <tr>
+                        <td scope="col">Celestio</td>
+                        <td scope="col">14th Feburary - 17th Feburary </td>
+                        <td scope="col">LINKS</td>
+                    </tr>
                 </tbody>
             </table>
         </div>

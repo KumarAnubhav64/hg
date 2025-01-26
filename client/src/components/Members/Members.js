@@ -12,6 +12,7 @@ import ElectronicsMembers from './Community/Electronics.members';
 // import AnonymousMembers from './Community/Anonymous.members';
 // import EventMembers from './Community/Event.members';
 import BlockchainMembers from './Community/BlockchainMembers';
+import ArcanumMembers from './Community/Arcanum.members';
 
 function Members() {
       return (<div className="members-component star-background">
@@ -22,6 +23,7 @@ function Members() {
             <IotMembers/>
             <MachineLearningMembers/>
             <BlockchainMembers/>
+            <ArcanumMembers/>
             {/* <RoboticsMembers/> */}
             {/* <AnonymousMembers/> */}
             {/* <CreaxnMembers/> */}

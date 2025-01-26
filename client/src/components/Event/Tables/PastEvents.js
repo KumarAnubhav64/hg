@@ -33,7 +33,7 @@ function PastEvents(props) {
                     <tr>
                         <th scope="col">EVENT NAME</th>
                         <th scope="col">DATE | TIME</th>
-                        <th scope="col">COMMUNITY</th>
+                        <th scope="col">LINKS</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -62,6 +62,32 @@ function PastEvents(props) {
                                 return(<tr key={id} ></tr>);
                             }
                     })}
+                    <tr>
+                        <td scope="col">House of Hacker</td>
+                        <td scope="col">DATE | TIME</td>
+                        <td scope="col">COMMUNITY</td>
+                    </tr>
+                    <tr>
+                        <td scope="col">SIH Intra College</td>
+                        <td scope="col">DATE | TIME</td>
+                        <td scope="col">COMMUNITY</td>
+                    </tr>
+                    <tr>
+                        <td scope="col">GDSE Solution Challenge</td>
+                        <td scope="col">DATE | TIME</td>
+                        <td scope="col">COMMUNITY</td>
+                    </tr>
+                    <tr>
+                        <td scope="col">Quasar</td>
+                        <td scope="col">DATE | TIME</td>
+                        <td scope="col">COMMUNITY</td>
+                    </tr>
+                    <tr>
+                        <td scope="col">AlgoUniversity CP Contest</td>
+                        <td scope="col">DATE | TIME</td>
+                        <td scope="col">COMMUNITY</td>
+                    </tr>
+                    
                 </tbody>
             </table>
         </div>

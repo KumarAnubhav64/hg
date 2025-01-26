@@ -122,6 +122,26 @@ function BlockchainMembers() {
 
                               </div>
                         </div>
+                        <div className="elc-members" key={bcMembers[4].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={bcMembers[4].img} alt="cpm" />
+                                    <h3 className="member-name">{bcMembers[4].name}</h3>
+                                    <h5 className="member-position">{bcMembers[4].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={bcMembers[4].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={bcMembers[4].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + bcMembers[4].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
                   </div>
             </div>
 

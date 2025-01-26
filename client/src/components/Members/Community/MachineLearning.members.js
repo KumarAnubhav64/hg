@@ -122,6 +122,46 @@ function MachineLearningMembers() {
 
                               </div>
                         </div>
+                        <div className="elc-members" key={mlLists[3].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={mlLists[3].img} alt="cpm" />
+                                    <h3 className="member-name">{mlLists[3].name}</h3>
+                                    <h5 className="member-position">{mlLists[3].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={mlLists[3].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={mlLists[3].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + mlLists[3].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
+                        <div className="elc-members" key={mlLists[4].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={mlLists[4].img} alt="cpm" />
+                                    <h3 className="member-name">{mlLists[4].name}</h3>
+                                    <h5 className="member-position">{mlLists[4].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={mlLists[4].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={mlLists[4].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + mlLists[4].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
                   </div>
             </div>
       </div>) : (

@@ -30,6 +30,30 @@ export const PartnersList = [{
             name: 'OUTSCAL',
             img: './images/Sponsors/svg/outscal.svg',
             link: '/sponsors'
+      },
+      {
+            id: 5,
+            name: 'Playstation',
+            img: './images/Sponsors/png/playstation.jpg',
+            link: '/sponsors'
+      },
+      {
+            id: 6,
+            name: 'TVS',
+            img: './images/Sponsors/png/tvs.png',
+            link: '/sponsors'
+      },
+      {
+            id: 7,
+            name: 'RedBull',
+            img: './images/Sponsors/png/redbull.jpeg',
+            link: '/sponsors'
+      },
+      {
+            id: 8,
+            name: 'Nissin',
+            img: './images/Sponsors/png/nissin.png',
+            link: '/sponsors'
       }
 
 ];
