@@ -60,6 +60,37 @@ export const PartnersList = [{
             name: 'Jagran Josh',
             img: './images/Sponsors/png/images.jpeg',
             link: '/sponsors'
+      },
+      {
+            id: 10,
+            name: 'HP Omen',
+            img: './images/Sponsors/png/omen.png',
+            link: '/sponsors'
+      },
+      {
+            id: 11,
+            name: 'Fadrita',
+            img: './images/Sponsors/png/fadrita.png',
+            link: '/sponsors'
+      },
+      {
+            id: 12,
+            name: 'Foundership',
+            img: './images/Sponsors/png/founder.png',
+            link: '/sponsors'
+      },
+      {
+            id: 13,
+            name: 'Fueler',
+            img: './images/Sponsors/png/fueler.jpeg',
+            link: '/sponsors'
+      },
+      {
+            id: 14,
+            name: 'Frostive',
+            img: './images/Sponsors/png/frost.png',
+            link: '/sponsors'
       }
+
 
 ];
