@@ -124,6 +124,46 @@ function ElectronicsMembers() {
 
                               </div>
                         </div>
+                        <div className="elc-members" key={elcLists[3].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={elcLists[3].img} alt="cpm" />
+                                    <h3 className="member-name">{elcLists[3].name}</h3>
+                                    <h5 className="member-position">{elcLists[3].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={elcLists[3].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={elcLists[3].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + elcLists[3].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
+                        <div className="elc-members" key={elcLists[4].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={elcLists[4].img} alt="cpm" />
+                                    <h3 className="member-name">{elcLists[4].name}</h3>
+                                    <h5 className="member-position">{elcLists[4].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={elcLists[4].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={elcLists[4].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + elcLists[4].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
                   </div>
             </div>
       </div>) : (

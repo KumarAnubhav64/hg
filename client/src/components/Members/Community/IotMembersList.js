@@ -1,8 +1,8 @@
 export const IotMembersLists = [
       {
             id: 0,
-            img: './images/Members/updated/Sampatharao.jpg',
-            name: 'Sampatharao Jyotsana',
+            img: './images/Members/HG2k24/iot/devansh.jpeg',
+            name: 'Devansh Varshney',
             position: 'Community Head',
             mail: 'sampatharao.btech.ec19@iiitranchi.ac.in',
             github: '',
