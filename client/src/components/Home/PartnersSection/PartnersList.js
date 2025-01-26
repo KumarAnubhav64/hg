@@ -54,6 +54,12 @@ export const PartnersList = [{
             name: 'Nissin',
             img: './images/Sponsors/png/nissin.png',
             link: '/sponsors'
+      },
+      {
+            id: 9,
+            name: 'Jagran Josh',
+            img: './images/Sponsors/png/images.jpeg',
+            link: '/sponsors'
       }
 
 ];

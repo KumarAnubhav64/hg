@@ -70,7 +70,14 @@ function UpcomingEvents(props) {
                     <tr>
                         <td scope="col">Celestio</td>
                         <td scope="col">14th Feburary - 17th Feburary </td>
-                        <td scope="col">LINKS</td>
+                        <td scope="col"><a
+                                href="/resources/bro.pdf"
+                                download="EventDetails.pdf"
+                                className="btn btn-primary"
+                            >
+                                Download Event Details (PDF)
+                            </a>
+                          </td>
                     </tr>
                 </tbody>
             </table>
