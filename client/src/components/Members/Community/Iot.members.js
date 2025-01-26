@@ -124,6 +124,47 @@ function IotMembers() {
 
                               </div>
                         </div>
+                        <div className="elc-members" key={iotLists[3].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={iotLists[3].img} alt="cpm" />
+                                    <h3 className="member-name">{iotLists[3].name}</h3>
+                                    <h5 className="member-position">{iotLists[3].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={iotLists[3].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={iotLists[3].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + iotLists[3].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
+                        <div className="elc-members" key={iotLists[4].id}>
+                              <div className="cp-img-div">
+                                    <img className="cp-img" src={iotLists[4].img} alt="cpm" />
+                                    <h3 className="member-name">{iotLists[4].name}</h3>
+                                    <h5 className="member-position">{iotLists[4].position}</h5>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={iotLists[4].linkedin}>
+                                          <LinkedIn className="icons-members"></LinkedIn>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={iotLists[4].github}>
+                                          <Github className="icons-members"></Github>
+
+                                    </a>
+                                    <a className="text-white" target="_blank" rel="noopener noreferrer" href={"mailto:" + iotLists[4].mail}>
+                                          <Email className="icons-members"></Email>
+
+                                    </a>
+
+                              </div>
+                        </div>
+                        
                   </div>
             </div>
       </div>) : (<div className="iot-members">
