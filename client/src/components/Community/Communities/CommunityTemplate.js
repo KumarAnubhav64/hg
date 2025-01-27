@@ -5,12 +5,13 @@ import { CommunityDetails as community } from "./CommunityDetails";
 import WebDAppDMembers from "../../Members/Community/WebDAppD.members";
 import CompetitiveCodingMembers from "../../Members/Community/CompetitiveCoding.members";
 import MachineLearningMembers from "../../Members/Community/MachineLearning.members";
-import RoboticsMembers from "../../Members/Community/Robotics.members";
+// import RoboticsMembers from "../../Members/Community/Robotics.members";
 import IotMembers from "../../Members/Community/Iot.members";
 import ElectronicsMembers from "../../Members/Community/Electronics.members";
-import CreaxnMembers from "../../Members/Community/Creaxn.members";
-import AnonymousMembers from "../../Members/Community/Anonymous.members";
-import EventMembers from "../../Members/Community/Event.members";
+// import CreaxnMembers from "../../Members/Community/Creaxn.members";
+// import AnonymousMembers from "../../Members/Community/Anonymous.members";
+// import EventMembers from "../../Members/Community/Event.members";
+import ArcanumMembers from "../../Members/Community/Arcanum.members"
 
 function CommunityTemplate() {
   const currentloc = String(window.location); //Gets current URL
@@ -35,19 +36,21 @@ function CommunityTemplate() {
         {currenttab === "electronics_iot" && (
           <div>
             <ElectronicsMembers></ElectronicsMembers>
-            <IotMembers></IotMembers>
+            
           </div>
         )}
-        {currenttab === "robotics" && <RoboticsMembers></RoboticsMembers>}
+        {currenttab === "robotics" && (
+          <div>
+            <IotMembers></IotMembers>
+            </div>
+          )}
         {currenttab === "webd_appd" && <WebDAppDMembers></WebDAppDMembers>}
         {currenttab === "machine_learning" && (
           <MachineLearningMembers></MachineLearningMembers>
         )}
         {currenttab === "design" && (
           <div>
-            <AnonymousMembers></AnonymousMembers>
-            <CreaxnMembers></CreaxnMembers>
-            <EventMembers></EventMembers>
+            <ArcanumMembers></ArcanumMembers>
           </div>
         )}
       </div>

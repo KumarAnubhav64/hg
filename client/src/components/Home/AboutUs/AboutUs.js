@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Event from "./Event/Event";
+// import Event from "./Event/Event";
 import "./AboutUs.css";
 
 function AboutUs() {
@@ -16,7 +16,7 @@ function AboutUs() {
           believe that collaborating, mending together minds to make something
           phenomenal is time travel in itself!
         </div>
-        <Event page="Home" />
+        {/* <Event page="Home" /> */}
       </div>
     </div>
   );

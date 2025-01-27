@@ -19,15 +19,15 @@ export const CommunityDetails = {
   },
   robotics: {
     imageLink: "./images/Communities/Robotics_Community.svg",
-    name: "Community of Robotics",
+    name: "Community of Robotics and IoT",
     details:
-      "Does that image of R2D2 inspire you to create a personal one for yourself? If you have ever even secretly aspired to build your own robot, then the Robotics Community, IIIT Ranchi is the place for you! One on one guidance, workshops and tutorials along with tools, equipments, components and workspace eagerly awaits you! The club strives to impart knowledge in the ever growing field of robotics via mini hands-on activities as well as giving students exposure in the form of lectures from the experts as well as through competitions.",
+      "Does that image of R2D2 inspire you to create a personal one for yourself? If you have ever even secretly aspired to build your own robot, then the Robotics Community, IIIT Ranchi is the place for you! One on one guidance, workshops and tutorials along with tools, equipments, components and workspace eagerly awaits you! The club strives to impart knowledge in the ever growing field of robotics via mini hands-on activities as well as giving students exposure in the form of lectures from the experts as well as through competitions.Internet of Things (IoT) is creating an environment of convergence in society. This technology environment brings a paradigm shift in our professional and personal life. The community also encourages the students of the institute in the Internet of Things and related domains.",
   },
   electronics_iot: {
     imageLink: "./images/Communities/Elec_Community.svg",
-    name: "Community of Electronics and IoT",
+    name: "Community of Electronics",
     details:
-      "Electronics and IoT community has the sole objective of inculcating a spirit of developing innovative technology solutions to real life problems. We provide a platform to the students’ body where any individual with an idea can approach the club freely to grasp the necessary technical skills required to turn that idea into a reality. This is a place where students get an opportunity to think outside the academic curriculum and get practical experience by implementing and applying concepts learnt in various theoretical courses. We conduct a plethora of lectures, workshops, projects as well as competitions throughout the year concerning both analog as well as digital electronics keep the calendar busy and the participants, learning. An Emerging Technological Innovation. Internet of Things (IoT) is creating an environment of convergence in society. This technology environment brings a paradigm shift in our professional and personal life. The community also encourages the students of the institute in the Internet of Things and related domains.",
+      "Electronics and IoT community has the sole objective of inculcating a spirit of developing innovative technology solutions to real life problems. We provide a platform to the students’ body where any individual with an idea can approach the club freely to grasp the necessary technical skills required to turn that idea into a reality. This is a place where students get an opportunity to think outside the academic curriculum and get practical experience by implementing and applying concepts learnt in various theoretical courses. We conduct a plethora of lectures, workshops, projects as well as competitions throughout the year concerning both analog as well as digital electronics keep the calendar busy and the participants, learning. An Emerging Technological Innovation.",
   },
   webd_appd: {
     imageLink: "./images/Communities/WebD_Community.svg",

@@ -8,13 +8,13 @@ const list = [
     {
         id: 1,
         linkName: "electronics_iot",
-        name: "Electronics and IoT",
-        description: "Electronics and IoT community has the sole objective of inculcating a spirit of developing innovative technology solutions to real life problems. We provide a platform to the students’ body where any individual with an idea can approach the club freely."
+        name: "Electronics",
+        description: "Electronics community has the sole objective of inculcating a spirit of developing innovative technology solutions to real life problems. We provide a platform to the students’ body where any individual with an idea can approach the club freely."
     },
     {
         id: 2,
         linkName: "robotics",
-        name: "Robotics",
+        name: "Robotics and IoT",
         description: "Does that image of R2D2 inspire you to create a personal one for yourself? If you have ever even secretly aspired to build your own robot, then the Robotics Community, IIIT Ranchi is the place for you!"
     },
     {
