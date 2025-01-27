@@ -48,7 +48,7 @@ function HeadMembers() {
 
                               const active = index
 
-                              if (active < 3) {
+                              if (active < 1) {
                                     return (<div className="cp-img-div col-lg-12 col-md-12" key={headList.id}>
 
                                           <img className="cp-img" src={headList.img} alt="cpm" />
@@ -69,7 +69,7 @@ function HeadMembers() {
 
                                     </div>)
                               } else {
-                                    return (<div className="cp-img-div col-lg-4 col-md-12" key={headList.id}>
+                                    return (<div className="cp-img-div col-lg-6 col-md-12" key={headList.id}>
 
                                           <img className="cp-img" src={headList.img} alt="cpm" />
                                           <h3 className="member-name">{headList.name}</h3>
