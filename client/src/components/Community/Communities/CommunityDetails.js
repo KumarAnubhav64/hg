@@ -7,7 +7,7 @@ export const CommunityDetails = {
   },
   design: {
     imageLink: "./images/Communities/UIUX_Community.svg",
-    name: "Community of Design UI and UX",
+    name: "Community of Arcanum",
     details:
         "In today’s technology-driven world, phrases like responsive design and user-friendly interface have become increasingly important across industries. Now more than ever, companies need innovative thinkers with the ability to transform their businesses through optimized interfaces and seamless user experiences. UI/UX community lets student get a hands-on training and instruction in high-demand UX/UI design methodology, user-centric design research, design thinking, and web prototyping, interaction design with JavaScript and jQuery, and much more in the line. Students also get to apply what they’ve learned towards building a comprehensive portfolio of projects ranging from AI sketches to mobile-responsive web layouts.",
   },
@@ -35,4 +35,10 @@ export const CommunityDetails = {
     details:
       "Web and application development community of IIIT Ranchi has been primarily responsible for providing innovative technical solutions to most of the issues in the institute. We began as web development Club with the sole purpose of developing web applications . But after enormous support from students we have now evolved into a club that has proficient developers from the field of Android Development, Web Development, Game Development and IOS development. All the four verticals work in harmony to develop innovative softwares that solve many real life technical issues on campus.",
   },
+  cyber: {
+    imageLink: "./images/Communities/WebD_Community.svg",
+    name: "Community of Cyber Security",
+    details:
+      "The Cyber Security Wing in our college is a dedicated hub for students passionate about safeguarding the digital world. It focuses on ethical hacking, penetration testing, cryptography, and secure coding. Through workshops, seminars, and hands-on projects, members gain practical knowledge to counter cyber threats, fostering a culture of innovation and resilience in the realm of cybersecurity.",
+  }
 };

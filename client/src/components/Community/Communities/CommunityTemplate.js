@@ -12,7 +12,7 @@ import ElectronicsMembers from "../../Members/Community/Electronics.members";
 // import AnonymousMembers from "../../Members/Community/Anonymous.members";
 // import EventMembers from "../../Members/Community/Event.members";
 import ArcanumMembers from "../../Members/Community/Arcanum.members"
-
+import BlockchainMembers  from  "../../Members/Community/BlockchainMembers"
 function CommunityTemplate() {
   const currentloc = String(window.location); //Gets current URL
   let currenttab = currentloc.substring(currentloc.lastIndexOf("/") + 1); //Gets current element from navbar
@@ -45,6 +45,7 @@ function CommunityTemplate() {
             </div>
           )}
         {currenttab === "webd_appd" && <WebDAppDMembers></WebDAppDMembers>}
+        {currenttab === "cyber" && <BlockchainMembers></BlockchainMembers>}
         {currenttab === "machine_learning" && (
           <MachineLearningMembers></MachineLearningMembers>
         )}

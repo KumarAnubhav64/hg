@@ -8,7 +8,7 @@ const list = [
     {
         id: 1,
         linkName: "electronics_iot",
-        name: "Electronics",
+        name: "Sparkk",
         description: "Electronics community has the sole objective of inculcating a spirit of developing innovative technology solutions to real life problems. We provide a platform to the students’ body where any individual with an idea can approach the club freely."
     },
     {
@@ -32,8 +32,14 @@ const list = [
     {
         id: 5,
         linkName: "design",
-        name: "Design UI and UX",
+        name: "Arcanum",
         description: "In today’s technology-driven world, phrases like responsive design and user-friendly interface have become increasingly important across industries. Now more than ever, companies need innovative thinkers with the ability to transform their businesses."
+    },
+    {
+        id: 6,
+        linkName: "cyber",
+        name: "Cyber Security",
+        description: "The Cyber Security Wing in our college is a dedicated hub for students passionate about safeguarding the digital world. It focuses on ethical hacking, penetration testing, cryptography, and secure coding. Through workshops, seminars, and hands-on projects, members gain practical knowledge to counter cyber threats, fostering a culture of innovation and resilience in the realm of cybersecurity."
     }
 ];
 
