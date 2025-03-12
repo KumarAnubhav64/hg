@@ -37,7 +37,7 @@ export const IotMembersLists = [
       },
       {
             id: 4,
-            img: './images/Members/HG2k24/anonymous/Ano.jpg', ////
+            img: './images/Members/HG2k24/iot/chaitanya.jpeg', ////
             name: 'Chaitanya Chaurasia',
             position: 'Community Co-ordinator',
             mail: 'chaitanya.2023ug2028@iiitranchi.ac.in',
